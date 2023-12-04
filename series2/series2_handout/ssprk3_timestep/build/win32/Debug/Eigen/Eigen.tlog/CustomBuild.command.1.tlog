@@ -1,0 +1,136 @@
+^C:\USERS\VIKRA\DESKTOP\CMEA\SERIES2\SERIES2_HANDOUT\SSPRK3_TIMESTEP\BUILD\CMAKEFILES\475BFEA49E36CD703B772B25D79BC5A0\EIGEN-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/vikra/Desktop/CMEA/series2/series2_handout/ssprk3_timestep/build/Eigen-prefix/tmp/Eigen-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/vikra/Desktop/CMEA/series2/series2_handout/ssprk3_timestep/build/Eigen-prefix/src/Eigen-stamp/Debug/Eigen-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\VIKRA\DESKTOP\CMEA\SERIES2\SERIES2_HANDOUT\SSPRK3_TIMESTEP\BUILD\CMAKEFILES\475BFEA49E36CD703B772B25D79BC5A0\EIGEN-DOWNLOAD.RULE
+setlocal
+cd C:\Users\vikra\Desktop\CMEA\series2\series2_handout\ssprk3_timestep\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/vikra/Desktop/CMEA/series2/series2_handout/ssprk3_timestep/build/Eigen-prefix/src/Eigen-stamp/download-Eigen.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/vikra/Desktop/CMEA/series2/series2_handout/ssprk3_timestep/build/Eigen-prefix/src/Eigen-stamp/verify-Eigen.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/vikra/Desktop/CMEA/series2/series2_handout/ssprk3_timestep/build/Eigen-prefix/src/Eigen-stamp/extract-Eigen.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/vikra/Desktop/CMEA/series2/series2_handout/ssprk3_timestep/build/Eigen-prefix/src/Eigen-stamp/Debug/Eigen-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\VIKRA\DESKTOP\CMEA\SERIES2\SERIES2_HANDOUT\SSPRK3_TIMESTEP\BUILD\CMAKEFILES\475BFEA49E36CD703B772B25D79BC5A0\EIGEN-UPDATE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/vikra/Desktop/CMEA/series2/series2_handout/ssprk3_timestep/build/Eigen-prefix/src/Eigen-stamp/Debug/Eigen-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\VIKRA\DESKTOP\CMEA\SERIES2\SERIES2_HANDOUT\SSPRK3_TIMESTEP\BUILD\CMAKEFILES\475BFEA49E36CD703B772B25D79BC5A0\EIGEN-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/vikra/Desktop/CMEA/series2/series2_handout/ssprk3_timestep/build/Eigen-prefix/src/Eigen-stamp/Debug/Eigen-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\VIKRA\DESKTOP\CMEA\SERIES2\SERIES2_HANDOUT\SSPRK3_TIMESTEP\BUILD\CMAKEFILES\475BFEA49E36CD703B772B25D79BC5A0\EIGEN-CONFIGURE.RULE
+setlocal
+cd C:\Users\vikra\Desktop\CMEA\series2\series2_handout\ssprk3_timestep\build\Eigen-prefix\src\Eigen-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" "-DCMAKE_CXX_COMPILER=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx86/x86/cl.exe" "-DCMAKE_C_COMPILER=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx86/x86/cl.exe" -DCMAKE_INSTALL_PREFIX=C:/Users/vikra/Desktop/CMEA/series2/series2_handout/ssprk3_timestep/build/Eigen_install "-GVisual Studio 17 2022" -Awin32 -Thost=x86 "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files/Microsoft Visual Studio/2022/Community" -S C:/Users/vikra/Desktop/CMEA/series2/series2_handout/ssprk3_timestep/build/Eigen -B C:/Users/vikra/Desktop/CMEA/series2/series2_handout/ssprk3_timestep/build/Eigen-prefix/src/Eigen-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/vikra/Desktop/CMEA/series2/series2_handout/ssprk3_timestep/build/Eigen-prefix/src/Eigen-stamp/Debug/Eigen-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\VIKRA\DESKTOP\CMEA\SERIES2\SERIES2_HANDOUT\SSPRK3_TIMESTEP\BUILD\CMAKEFILES\475BFEA49E36CD703B772B25D79BC5A0\EIGEN-BUILD.RULE
+setlocal
+cd C:\Users\vikra\Desktop\CMEA\series2\series2_handout\ssprk3_timestep\build\Eigen-prefix\src\Eigen-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --config Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/vikra/Desktop/CMEA/series2/series2_handout/ssprk3_timestep/build/Eigen-prefix/src/Eigen-stamp/Debug/Eigen-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\VIKRA\DESKTOP\CMEA\SERIES2\SERIES2_HANDOUT\SSPRK3_TIMESTEP\BUILD\CMAKEFILES\475BFEA49E36CD703B772B25D79BC5A0\EIGEN-INSTALL.RULE
+setlocal
+cd C:\Users\vikra\Desktop\CMEA\series2\series2_handout\ssprk3_timestep\build\Eigen-prefix\src\Eigen-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --config Debug --target install
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/vikra/Desktop/CMEA/series2/series2_handout/ssprk3_timestep/build/Eigen-prefix/src/Eigen-stamp/Debug/Eigen-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\VIKRA\DESKTOP\CMEA\SERIES2\SERIES2_HANDOUT\SSPRK3_TIMESTEP\BUILD\CMAKEFILES\D727664F2CE20563D71CB21F4D921B99\EIGEN-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/vikra/Desktop/CMEA/series2/series2_handout/ssprk3_timestep/build/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/vikra/Desktop/CMEA/series2/series2_handout/ssprk3_timestep/build/CMakeFiles/Debug/Eigen-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/vikra/Desktop/CMEA/series2/series2_handout/ssprk3_timestep/build/Eigen-prefix/src/Eigen-stamp/Debug/Eigen-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\VIKRA\DESKTOP\CMEA\SERIES2\SERIES2_HANDOUT\SSPRK3_TIMESTEP\BUILD\CMAKEFILES\72BFC0F1C9060C60C794999F632BFF5B\EIGEN.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\VIKRA\DESKTOP\CMEA\SERIES2\SERIES2_HANDOUT\SSPRK3_TIMESTEP\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/vikra/Desktop/CMEA/series2/series2_handout/ssprk3_timestep -BC:/Users/vikra/Desktop/CMEA/series2/series2_handout/ssprk3_timestep/build --check-stamp-file C:/Users/vikra/Desktop/CMEA/series2/series2_handout/ssprk3_timestep/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

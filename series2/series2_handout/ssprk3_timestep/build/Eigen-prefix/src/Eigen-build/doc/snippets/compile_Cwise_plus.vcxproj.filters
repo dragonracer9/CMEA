@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\ssprk3_timestep\build\Eigen-prefix\src\Eigen-build\doc\snippets\compile_Cwise_plus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\ssprk3_timestep\build\Eigen\doc\snippets\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FE2234D8-1196-38D9-9703-C5294ED3A083}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

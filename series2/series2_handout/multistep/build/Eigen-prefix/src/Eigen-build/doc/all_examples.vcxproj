@@ -1,0 +1,449 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9785E285-7920-3C04-AA05-3896CB934CE9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>all_examples</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\doc;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\doc;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\doc;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\doc;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\doc\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen -BC:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen-prefix/src/Eigen-build --check-stamp-file C:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen-prefix/src/Eigen-build/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\doc\Doxyfile.in;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\doc\eigendoxy_footer.html.in;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\doc\eigendoxy_header.html.in;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\doc\eigendoxy_layout.xml.in;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\unsupported\doc\eigendoxy_layout.xml.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen -BC:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen-prefix/src/Eigen-build --check-stamp-file C:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen-prefix/src/Eigen-build/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\doc\Doxyfile.in;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\doc\eigendoxy_footer.html.in;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\doc\eigendoxy_header.html.in;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\doc\eigendoxy_layout.xml.in;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\unsupported\doc\eigendoxy_layout.xml.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen -BC:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen-prefix/src/Eigen-build --check-stamp-file C:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen-prefix/src/Eigen-build/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\doc\Doxyfile.in;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\doc\eigendoxy_footer.html.in;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\doc\eigendoxy_header.html.in;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\doc\eigendoxy_layout.xml.in;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\unsupported\doc\eigendoxy_layout.xml.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen -BC:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen-prefix/src/Eigen-build --check-stamp-file C:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen-prefix/src/Eigen-build/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\doc\Doxyfile.in;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\doc\eigendoxy_footer.html.in;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\doc\eigendoxy_header.html.in;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\doc\eigendoxy_layout.xml.in;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\unsupported\doc\eigendoxy_layout.xml.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\ZERO_CHECK.vcxproj">
+      <Project>{FCFD74E3-067D-3F22-9F7F-853EDE5DF1F9}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\CustomizingEigen_Inheritance.vcxproj">
+      <Project>{533299FD-1551-3278-8F29-4E2077B849A4}</Project>
+      <Name>CustomizingEigen_Inheritance</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\Cwise_erf.vcxproj">
+      <Project>{B7362F9B-3819-3192-8802-0A0FB935E05C}</Project>
+      <Name>Cwise_erf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\Cwise_erfc.vcxproj">
+      <Project>{D1EC8778-7492-3C39-AB17-31785BC0FB97}</Project>
+      <Name>Cwise_erfc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\Cwise_lgamma.vcxproj">
+      <Project>{721C5982-326F-38DB-AA3B-3A8D01525DDB}</Project>
+      <Name>Cwise_lgamma</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\DenseBase_middleCols_int.vcxproj">
+      <Project>{60760200-57C9-3EA6-9A9D-E82D9490F01A}</Project>
+      <Name>DenseBase_middleCols_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\DenseBase_middleRows_int.vcxproj">
+      <Project>{53045F18-6D1E-3B9E-9C9B-496ED5B9805E}</Project>
+      <Name>DenseBase_middleRows_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\DenseBase_template_int_middleCols.vcxproj">
+      <Project>{6610A3F9-F4A5-3CB4-98E9-CF02E2679D89}</Project>
+      <Name>DenseBase_template_int_middleCols</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\DenseBase_template_int_middleRows.vcxproj">
+      <Project>{F4B48CB5-F6E4-3F21-8B2E-63B44D548302}</Project>
+      <Name>DenseBase_template_int_middleRows</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\QuickStart_example.vcxproj">
+      <Project>{5F21F062-DD9A-3669-BA56-8FF3673A4759}</Project>
+      <Name>QuickStart_example</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\QuickStart_example2_dynamic.vcxproj">
+      <Project>{C16EE33C-E515-32B6-B410-461528624232}</Project>
+      <Name>QuickStart_example2_dynamic</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\QuickStart_example2_fixed.vcxproj">
+      <Project>{968D2742-29C5-38BB-81B3-7CFC48B62045}</Project>
+      <Name>QuickStart_example2_fixed</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\TemplateKeyword_flexible.vcxproj">
+      <Project>{05AB18E5-69F7-3993-9C27-93E342225806}</Project>
+      <Name>TemplateKeyword_flexible</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\TemplateKeyword_simple.vcxproj">
+      <Project>{91662EE0-C153-3E79-9A7D-47DB7DAA4CE6}</Project>
+      <Name>TemplateKeyword_simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\TutorialInplaceLU.vcxproj">
+      <Project>{F8E9F58F-85BE-3D64-8CA0-0042C4A492A0}</Project>
+      <Name>TutorialInplaceLU</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\TutorialLinAlgComputeTwice.vcxproj">
+      <Project>{B2306534-3826-39B6-BBF5-D9DB28205B39}</Project>
+      <Name>TutorialLinAlgComputeTwice</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\TutorialLinAlgExComputeSolveError.vcxproj">
+      <Project>{AFE557BD-F385-3930-8366-E3667F776213}</Project>
+      <Name>TutorialLinAlgExComputeSolveError</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\TutorialLinAlgExSolveColPivHouseholderQR.vcxproj">
+      <Project>{F89AF569-6D23-3125-A947-8D6359B40506}</Project>
+      <Name>TutorialLinAlgExSolveColPivHouseholderQR</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\TutorialLinAlgExSolveLDLT.vcxproj">
+      <Project>{CA504BBE-F44C-331D-B52B-E3ED67E6EAFA}</Project>
+      <Name>TutorialLinAlgExSolveLDLT</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\TutorialLinAlgInverseDeterminant.vcxproj">
+      <Project>{A0433C51-8245-3BA3-ACFF-9D3C21E85857}</Project>
+      <Name>TutorialLinAlgInverseDeterminant</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\TutorialLinAlgRankRevealing.vcxproj">
+      <Project>{0B3570F0-7EB4-3668-9D16-F40D1671927E}</Project>
+      <Name>TutorialLinAlgRankRevealing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\TutorialLinAlgSVDSolve.vcxproj">
+      <Project>{F95736D2-68E3-3294-AD91-C190CF891C84}</Project>
+      <Name>TutorialLinAlgSVDSolve</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\TutorialLinAlgSelfAdjointEigenSolver.vcxproj">
+      <Project>{BBCF459C-BD19-335C-91CD-1FCEA62E273B}</Project>
+      <Name>TutorialLinAlgSelfAdjointEigenSolver</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\TutorialLinAlgSetThreshold.vcxproj">
+      <Project>{35F23905-530B-346B-8458-9EEC8D5FF00E}</Project>
+      <Name>TutorialLinAlgSetThreshold</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\Tutorial_ArrayClass_accessors.vcxproj">
+      <Project>{F14DB2A5-76AA-310F-AB06-527EE62CA353}</Project>
+      <Name>Tutorial_ArrayClass_accessors</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\Tutorial_ArrayClass_addition.vcxproj">
+      <Project>{4A4FFB35-8B19-3462-9AA2-0CFBF9E8405A}</Project>
+      <Name>Tutorial_ArrayClass_addition</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\Tutorial_ArrayClass_cwise_other.vcxproj">
+      <Project>{F1B70DA3-3233-31C2-A027-35B5E03B6ECF}</Project>
+      <Name>Tutorial_ArrayClass_cwise_other</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\Tutorial_ArrayClass_interop.vcxproj">
+      <Project>{0F54002E-0BDC-306F-8520-FF0A1004C3F1}</Project>
+      <Name>Tutorial_ArrayClass_interop</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\Tutorial_ArrayClass_interop_matrix.vcxproj">
+      <Project>{C6AE72A6-F34F-36A5-94DE-A9C675F77B7A}</Project>
+      <Name>Tutorial_ArrayClass_interop_matrix</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\Tutorial_ArrayClass_mult.vcxproj">
+      <Project>{8E306583-DDB9-31DF-AD27-D4B2CD46EFCD}</Project>
+      <Name>Tutorial_ArrayClass_mult</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\Tutorial_BlockOperations_block_assignment.vcxproj">
+      <Project>{91B31FA5-BCC2-3CF4-835C-AFD38C3425E6}</Project>
+      <Name>Tutorial_BlockOperations_block_assignment</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\Tutorial_BlockOperations_colrow.vcxproj">
+      <Project>{89084C02-A405-3B39-A86A-A19E129CAC90}</Project>
+      <Name>Tutorial_BlockOperations_colrow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\Tutorial_BlockOperations_corner.vcxproj">
+      <Project>{154CFC94-2FB9-34D2-A293-55E7AC6C12E6}</Project>
+      <Name>Tutorial_BlockOperations_corner</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\Tutorial_BlockOperations_print_block.vcxproj">
+      <Project>{336554A7-F4FC-3991-96D0-640D906E1540}</Project>
+      <Name>Tutorial_BlockOperations_print_block</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\Tutorial_BlockOperations_vector.vcxproj">
+      <Project>{DDC0384A-C1AD-3D8A-B997-9FC003E5E5BE}</Project>
+      <Name>Tutorial_BlockOperations_vector</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\Tutorial_PartialLU_solve.vcxproj">
+      <Project>{4545DAA3-247B-3B10-82E5-D8BEBB9D15FC}</Project>
+      <Name>Tutorial_PartialLU_solve</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_broadcast_1nn.vcxproj">
+      <Project>{6D170D9D-54FD-333E-94B7-0664914EB463}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_broadcast_1nn</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple.vcxproj">
+      <Project>{CBE891D6-AAF9-3598-BC15-939F979D6F86}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple_rowwise.vcxproj">
+      <Project>{95E28CD0-D623-3AE7-9F3D-FBAF09F7DE83}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple_rowwise</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_colwise.vcxproj">
+      <Project>{4C5E0A25-A610-3027-B1A8-8F9E896A8256}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_colwise</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_maxnorm.vcxproj">
+      <Project>{47677ED2-3CF2-3128-8162-B97FA659321E}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_maxnorm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_reductions_bool.vcxproj">
+      <Project>{88B0D761-B001-3C72-BA72-2C8D5AB0F0CF}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_reductions_bool</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_reductions_norm.vcxproj">
+      <Project>{956A3C99-87EB-340C-A065-5953EC897591}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_reductions_norm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_reductions_operatornorm.vcxproj">
+      <Project>{79009546-705F-3FE2-BF33-FE06F3BE1D53}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_reductions_operatornorm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_rowwise.vcxproj">
+      <Project>{F24350F4-19B6-3693-A382-365EDC185120}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_rowwise</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_visitors.vcxproj">
+      <Project>{28E7AE98-CE5A-354B-9273-92B9E5DAD22B}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_visitors</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\Tutorial_simple_example_dynamic_size.vcxproj">
+      <Project>{17DC385C-FE0D-319C-8DBB-579472E661CB}</Project>
+      <Name>Tutorial_simple_example_dynamic_size</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\Tutorial_simple_example_fixed_size.vcxproj">
+      <Project>{70AC0217-B4A8-3260-91B3-8A26F3C0D055}</Project>
+      <Name>Tutorial_simple_example_fixed_size</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\class_Block.vcxproj">
+      <Project>{53A1A806-EC05-3F8E-BCA6-5A1E878C14F5}</Project>
+      <Name>class_Block</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\class_CwiseBinaryOp.vcxproj">
+      <Project>{ABF65996-F2BB-3BA4-A053-DAFB96656C29}</Project>
+      <Name>class_CwiseBinaryOp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\class_CwiseUnaryOp.vcxproj">
+      <Project>{FBC1C5D6-4883-3A81-8B61-07E8CF95E521}</Project>
+      <Name>class_CwiseUnaryOp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\class_CwiseUnaryOp_ptrfun.vcxproj">
+      <Project>{C8BBD9B0-688C-31D8-80E8-C640E7D50738}</Project>
+      <Name>class_CwiseUnaryOp_ptrfun</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\class_FixedBlock.vcxproj">
+      <Project>{CD90D673-FD17-3B60-A393-1C338D374EF6}</Project>
+      <Name>class_FixedBlock</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\class_FixedVectorBlock.vcxproj">
+      <Project>{7AAB1617-F0EC-316E-B1E4-86EF32D8CE12}</Project>
+      <Name>class_FixedVectorBlock</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\class_VectorBlock.vcxproj">
+      <Project>{84E82C3D-CE86-3304-8010-599E0F79964E}</Project>
+      <Name>class_VectorBlock</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\function_taking_eigenbase.vcxproj">
+      <Project>{E1DEC730-029D-3C29-9366-B4EDE6571455}</Project>
+      <Name>function_taking_eigenbase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\function_taking_ref.vcxproj">
+      <Project>{78ADD929-EA4E-32C8-A560-5FE5B596AE11}</Project>
+      <Name>function_taking_ref</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\make_circulant.vcxproj">
+      <Project>{B54021BD-66E2-3C7B-B939-1E5FC8F60D8F}</Project>
+      <Name>make_circulant</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\make_circulant2.vcxproj">
+      <Project>{08B27896-B3B7-3CA6-800B-6DBEA08E521C}</Project>
+      <Name>make_circulant2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\matrixfree_cg.vcxproj">
+      <Project>{2BE34A6E-BC34-335A-B67B-2B9544090646}</Project>
+      <Name>matrixfree_cg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\nullary_indexing.vcxproj">
+      <Project>{8121C856-5E26-3538-B172-8121F49EF572}</Project>
+      <Name>nullary_indexing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\tut_arithmetic_add_sub.vcxproj">
+      <Project>{FD478B5A-04F0-36B7-A7B1-5D472C4249EF}</Project>
+      <Name>tut_arithmetic_add_sub</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\tut_arithmetic_dot_cross.vcxproj">
+      <Project>{1210C2AA-E2A5-3B6D-AEAC-4C4E521E10C3}</Project>
+      <Name>tut_arithmetic_dot_cross</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\tut_arithmetic_matrix_mul.vcxproj">
+      <Project>{2046E126-77F9-3A2C-B465-DCFCB36BB714}</Project>
+      <Name>tut_arithmetic_matrix_mul</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\tut_arithmetic_redux_basic.vcxproj">
+      <Project>{237E9C0B-F4B0-39A2-9E2C-3D0ABF8AE57C}</Project>
+      <Name>tut_arithmetic_redux_basic</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\tut_arithmetic_scalar_mul_div.vcxproj">
+      <Project>{6455E862-29D5-36C4-AFAF-B34FC99CC635}</Project>
+      <Name>tut_arithmetic_scalar_mul_div</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\tut_matrix_coefficient_accessors.vcxproj">
+      <Project>{609523B6-FAA5-380C-9D85-9649D25A923E}</Project>
+      <Name>tut_matrix_coefficient_accessors</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\tut_matrix_resize.vcxproj">
+      <Project>{07C7ED78-79AB-307C-BFD0-DDEFF014C915}</Project>
+      <Name>tut_matrix_resize</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\doc\examples\tut_matrix_resize_fixed_size.vcxproj">
+      <Project>{F73D12E7-14AA-3CE6-B92C-4E5CC858632A}</Project>
+      <Name>tut_matrix_resize_fixed_size</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

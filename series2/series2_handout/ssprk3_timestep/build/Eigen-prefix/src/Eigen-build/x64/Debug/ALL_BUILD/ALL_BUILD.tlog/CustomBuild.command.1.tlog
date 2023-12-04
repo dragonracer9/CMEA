@@ -1,0 +1,10 @@
+^C:\USERS\VIKRA\DESKTOP\CMEA\SERIES2\SERIES2_HANDOUT\SSPRK3_TIMESTEP\BUILD\EIGEN\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/vikra/Desktop/CMEA/series2/series2_handout/ssprk3_timestep/build/Eigen -BC:/Users/vikra/Desktop/CMEA/series2/series2_handout/ssprk3_timestep/build/Eigen-prefix/src/Eigen-build --check-stamp-file C:/Users/vikra/Desktop/CMEA/series2/series2_handout/ssprk3_timestep/build/Eigen-prefix/src/Eigen-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

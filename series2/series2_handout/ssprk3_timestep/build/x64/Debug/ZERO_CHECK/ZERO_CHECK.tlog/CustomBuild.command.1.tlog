@@ -1,0 +1,10 @@
+^C:\USERS\VIKRA\DESKTOP\CMEA\SERIES2\SERIES2_HANDOUT\SSPRK3_TIMESTEP\BUILD\CMAKEFILES\72BFC0F1C9060C60C794999F632BFF5B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/vikra/Desktop/CMEA/series2/series2_handout/ssprk3_timestep -BC:/Users/vikra/Desktop/CMEA/series2/series2_handout/ssprk3_timestep/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/vikra/Desktop/CMEA/series2/series2_handout/ssprk3_timestep/build/CMAEIIS2EX1.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

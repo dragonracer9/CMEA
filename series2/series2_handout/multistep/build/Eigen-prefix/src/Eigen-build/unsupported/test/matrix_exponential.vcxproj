@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{133A25E5-AB31-3B92-9069-F135ABCABA77}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>matrix_exponential</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\unsupported\test;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\unsupported\test;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\unsupported\test\..\..\test;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\unsupported\test\..\..\unsupported;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\unsupported\test\..\..\Eigen;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\unsupported\test\..\..\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\unsupported\test;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\unsupported\test;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\unsupported\test\..\..\test;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\unsupported\test\..\..\unsupported;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\unsupported\test\..\..\Eigen;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\unsupported\test\..\..\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\unsupported\test;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\unsupported\test;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\unsupported\test\..\..\test;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\unsupported\test\..\..\unsupported;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\unsupported\test\..\..\Eigen;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\unsupported\test\..\..\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\unsupported\test;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\unsupported\test;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\unsupported\test\..\..\test;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\unsupported\test\..\..\unsupported;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\unsupported\test\..\..\Eigen;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\unsupported\test\..\..\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\unsupported\test\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen/unsupported/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen -BC:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen-prefix/src/Eigen-build --check-stamp-file C:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen-prefix/src/Eigen-build/unsupported/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindGLUT.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\SelectLibraryConfigurations.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindAdolc.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindFFTW.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindGLEW.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindGMP.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindGoogleHash.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindMPFR.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\unsupported\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen/unsupported/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen -BC:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen-prefix/src/Eigen-build --check-stamp-file C:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen-prefix/src/Eigen-build/unsupported/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindGLUT.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\SelectLibraryConfigurations.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindAdolc.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindFFTW.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindGLEW.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindGMP.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindGoogleHash.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindMPFR.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\unsupported\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen/unsupported/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen -BC:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen-prefix/src/Eigen-build --check-stamp-file C:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen-prefix/src/Eigen-build/unsupported/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindGLUT.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\SelectLibraryConfigurations.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindAdolc.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindFFTW.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindGLEW.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindGMP.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindGoogleHash.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindMPFR.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\unsupported\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen/unsupported/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen -BC:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen-prefix/src/Eigen-build --check-stamp-file C:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen-prefix/src/Eigen-build/unsupported/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindGLUT.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\SelectLibraryConfigurations.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindAdolc.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindFFTW.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindGLEW.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindGMP.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindGoogleHash.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindMPFR.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\unsupported\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\ZERO_CHECK.vcxproj">
+      <Project>{FCFD74E3-067D-3F22-9F7F-853EDE5DF1F9}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\unsupported\test\matrix_exponential_1.vcxproj">
+      <Project>{5367D84D-647C-3D39-8533-E233EF077CC0}</Project>
+      <Name>matrix_exponential_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\unsupported\test\matrix_exponential_2.vcxproj">
+      <Project>{D17C12B1-BAAE-320A-89AB-95DC711A6D4E}</Project>
+      <Name>matrix_exponential_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\unsupported\test\matrix_exponential_3.vcxproj">
+      <Project>{9EC6C3A0-F188-3B3C-BF4E-A5D2E8746BB5}</Project>
+      <Name>matrix_exponential_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\unsupported\test\matrix_exponential_4.vcxproj">
+      <Project>{A2E80D29-48A5-30F5-9490-D604B3790AD7}</Project>
+      <Name>matrix_exponential_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\unsupported\test\matrix_exponential_5.vcxproj">
+      <Project>{B88F16AA-1F89-31DF-A6F0-7DCC82CE02B7}</Project>
+      <Name>matrix_exponential_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\unsupported\test\matrix_exponential_6.vcxproj">
+      <Project>{702B52F3-CDAC-34B4-BCCD-62BD379C0AC5}</Project>
+      <Name>matrix_exponential_6</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\unsupported\test\matrix_exponential_7.vcxproj">
+      <Project>{C3B34F24-B792-338D-B79E-F6338FD14FA6}</Project>
+      <Name>matrix_exponential_7</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\unsupported\test\matrix_exponential_8.vcxproj">
+      <Project>{8CC72E14-A5D8-3163-A917-CC436E4CF3EA}</Project>
+      <Name>matrix_exponential_8</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\unsupported\test\matrix_exponential_9.vcxproj">
+      <Project>{BBFE5CC1-F880-3708-BDAB-BFD41B80F141}</Project>
+      <Name>matrix_exponential_9</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

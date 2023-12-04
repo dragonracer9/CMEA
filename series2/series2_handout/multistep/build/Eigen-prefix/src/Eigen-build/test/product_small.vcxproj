@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9961639F-F6CE-3D45-A702-8791D24FCB67}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>product_small</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\test;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\test;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\test;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\test;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\test;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\test;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\test;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\test;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\test\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen -BC:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen-prefix/src/Eigen-build --check-stamp-file C:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen-prefix/src/Eigen-build/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckFortranFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindBoost.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindMPI.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindQt4.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\MacroAddFileDependencies.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindBLAS.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindBLASEXT.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindCholmod.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindHWLOC.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindLAPACK.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindMetis.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindPTSCOTCH.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindPastix.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindSPQR.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindScotch.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindSuperLU.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindUmfpack.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\language_support.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen -BC:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen-prefix/src/Eigen-build --check-stamp-file C:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen-prefix/src/Eigen-build/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckFortranFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindBoost.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindMPI.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindQt4.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\MacroAddFileDependencies.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindBLAS.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindBLASEXT.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindCholmod.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindHWLOC.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindLAPACK.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindMetis.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindPTSCOTCH.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindPastix.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindSPQR.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindScotch.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindSuperLU.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindUmfpack.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\language_support.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen -BC:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen-prefix/src/Eigen-build --check-stamp-file C:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen-prefix/src/Eigen-build/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckFortranFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindBoost.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindMPI.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindQt4.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\MacroAddFileDependencies.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindBLAS.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindBLASEXT.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindCholmod.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindHWLOC.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindLAPACK.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindMetis.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindPTSCOTCH.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindPastix.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindSPQR.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindScotch.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindSuperLU.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindUmfpack.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\language_support.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen -BC:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen-prefix/src/Eigen-build --check-stamp-file C:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/Eigen-prefix/src/Eigen-build/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckFortranFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindBoost.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindMPI.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindQt4.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\MacroAddFileDependencies.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindBLAS.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindBLASEXT.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindCholmod.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindHWLOC.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindLAPACK.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindMetis.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindPTSCOTCH.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindPastix.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindSPQR.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindScotch.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindSuperLU.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\FindUmfpack.cmake;C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen\cmake\language_support.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\ZERO_CHECK.vcxproj">
+      <Project>{FCFD74E3-067D-3F22-9F7F-853EDE5DF1F9}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\test\product_small_1.vcxproj">
+      <Project>{B82D79B5-5FD7-351A-864D-18C43701F235}</Project>
+      <Name>product_small_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\test\product_small_11.vcxproj">
+      <Project>{EF837AE0-BC9B-3C7B-AFD8-72CD85EC9ACB}</Project>
+      <Name>product_small_11</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\test\product_small_12.vcxproj">
+      <Project>{153B9AFA-AD16-37D5-A2A2-1FEA576B466C}</Project>
+      <Name>product_small_12</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\test\product_small_13.vcxproj">
+      <Project>{CE3D8365-2735-37CC-98D3-C8EDD4DDCE86}</Project>
+      <Name>product_small_13</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\test\product_small_2.vcxproj">
+      <Project>{A042FA0F-369E-3782-AE68-3AE6FB06F932}</Project>
+      <Name>product_small_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\test\product_small_21.vcxproj">
+      <Project>{838C1EB2-D453-343D-941F-D4FECC1E650F}</Project>
+      <Name>product_small_21</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\test\product_small_22.vcxproj">
+      <Project>{F76624A9-A07B-3FE2-933D-E7A4E6F46C04}</Project>
+      <Name>product_small_22</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\test\product_small_23.vcxproj">
+      <Project>{E004D625-EAE6-3E80-8072-AD474F8BDA7A}</Project>
+      <Name>product_small_23</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\test\product_small_3.vcxproj">
+      <Project>{023BD4DE-AD1D-334F-A9D1-6E574CBFABE2}</Project>
+      <Name>product_small_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\test\product_small_31.vcxproj">
+      <Project>{C19BEEC0-77A6-3076-BAC1-DFD3B87EAA4A}</Project>
+      <Name>product_small_31</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\test\product_small_32.vcxproj">
+      <Project>{70E428DB-350B-35AA-9E68-2F4D5FA7E66B}</Project>
+      <Name>product_small_32</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\test\product_small_33.vcxproj">
+      <Project>{0FFAC7CF-6A43-30AC-AA94-6D187FD50EDC}</Project>
+      <Name>product_small_33</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\test\product_small_4.vcxproj">
+      <Project>{0D8B2F7A-F857-31C9-A95D-81C416A0B20F}</Project>
+      <Name>product_small_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\test\product_small_41.vcxproj">
+      <Project>{6DF29365-0D3B-3E48-84A9-7A774B655B9A}</Project>
+      <Name>product_small_41</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\test\product_small_42.vcxproj">
+      <Project>{8C407931-F04D-33A3-B61E-A960893766E1}</Project>
+      <Name>product_small_42</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\test\product_small_43.vcxproj">
+      <Project>{2FEB5B51-7D32-39E7-9212-2DC63DDB150D}</Project>
+      <Name>product_small_43</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\test\product_small_5.vcxproj">
+      <Project>{AFBC687E-FE66-3908-A70A-D6C82D4CFB3D}</Project>
+      <Name>product_small_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\test\product_small_6.vcxproj">
+      <Project>{95339B39-2805-3B36-9A7C-D10337CF35DA}</Project>
+      <Name>product_small_6</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\test\product_small_7.vcxproj">
+      <Project>{3A79D6E3-AB9B-37D8-B9E9-67FD2F9CD10C}</Project>
+      <Name>product_small_7</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\multistep\build\Eigen-prefix\src\Eigen-build\test\product_small_8.vcxproj">
+      <Project>{8C0A5486-BCFD-314C-A1AF-0F1E648F8213}</Project>
+      <Name>product_small_8</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

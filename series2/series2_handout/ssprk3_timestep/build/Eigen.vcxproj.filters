@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\ssprk3_timestep\build\CMakeFiles\475bfea49e36cd703b772b25d79bc5a0\Eigen-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\ssprk3_timestep\build\CMakeFiles\475bfea49e36cd703b772b25d79bc5a0\Eigen-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\ssprk3_timestep\build\CMakeFiles\475bfea49e36cd703b772b25d79bc5a0\Eigen-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\ssprk3_timestep\build\CMakeFiles\475bfea49e36cd703b772b25d79bc5a0\Eigen-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\ssprk3_timestep\build\CMakeFiles\475bfea49e36cd703b772b25d79bc5a0\Eigen-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\ssprk3_timestep\build\CMakeFiles\475bfea49e36cd703b772b25d79bc5a0\Eigen-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\ssprk3_timestep\build\CMakeFiles\475bfea49e36cd703b772b25d79bc5a0\Eigen-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\ssprk3_timestep\build\CMakeFiles\d727664f2ce20563d71cb21f4d921b99\Eigen-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\ssprk3_timestep\build\CMakeFiles\72bfc0f1c9060c60c794999f632bff5b\Eigen.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\ssprk3_timestep\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\vikra\Desktop\CMEA\series2\series2_handout\ssprk3_timestep\build\CMakeFiles\Eigen" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2D636D05-03D6-34FC-8AB9-DE24C156349B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

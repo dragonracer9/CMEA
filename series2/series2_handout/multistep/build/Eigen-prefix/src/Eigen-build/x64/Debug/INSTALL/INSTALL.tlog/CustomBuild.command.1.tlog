@@ -1,0 +1,10 @@
+^C:\USERS\VIKRA\DESKTOP\CMEA\SERIES2\SERIES2_HANDOUT\MULTISTEP\BUILD\EIGEN-PREFIX\SRC\EIGEN-BUILD\CMAKEFILES\4444374BA09D63B5343C139E346AB7E6\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

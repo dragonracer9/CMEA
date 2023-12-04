@@ -1,0 +1,10 @@
+^C:\USERS\VIKRA\DESKTOP\CMEA\SERIES2\SERIES2_HANDOUT\MULTISTEP\BUILD\CMAKEFILES\B78E7AEC29E5BBC7C29FB1FDCE0C9418\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep -BC:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/vikra/Desktop/CMEA/series2/series2_handout/multistep/build/CMAEIIS2MULTISTEP.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
